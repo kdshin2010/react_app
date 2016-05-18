@@ -1,0 +1,8 @@
+-classes/arrow functions/import/export statements
+-functional components --> take in info --> render JSX
+-search bar uses state by updating user input whenver state changes
+
+
+//call to API
+// spread info to app
+//downwards data flow -->parent component responsible for fetching data
