@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 //input hander onChange
 //state is a plain js object record events
-//control field 
+//control field
 class SearchBar extends Component {
 	constructor(props) {
 		super(props);
@@ -10,8 +10,8 @@ class SearchBar extends Component {
 	}
 	render() {
 		return (
-			<div>
-				<input 
+			<div className="search-bar">
+				<input
 					value = {this.state.term}
 					onChange={event => this.setState({term: event.target.value})} />
 			}
